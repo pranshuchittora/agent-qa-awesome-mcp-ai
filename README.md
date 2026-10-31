@@ -11,6 +11,8 @@ A curated list of Model Context Protocol (MCP) repositories for AI agents.
   - [ArtCraft Ecosystem](#artcraft-ecosystem-exception-below-100): any star count
   - [CAE & Engineering Simulation](#cae--engineering-simulation): ★ 10+
   - [Measurement & Instruments](#measurement--instruments): ★ 1+
+  - [Compliance, GRC & ISMS](#compliance-grc--isms): ★ 10+
+  - [Entra ID, Identity & Endpoint](#entra-id-identity--endpoint): ★ 10+
 
 Snapshot date: 2026-10-31 (data via GitHub search API; stars are rounded).
 Note: "pushed" means the most recent push to any branch, which is a close proxy for the latest commit.
@@ -49,6 +51,8 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
   - [Offensive Security & Vulnerability Scanning](#offensive-security--vulnerability-scanning)
   - [Reverse Engineering & Malware Analysis](#reverse-engineering--malware-analysis)
   - [MCP & Agent Security](#mcp--agent-security)
+  - [Compliance, GRC & ISMS](#compliance-grc--isms)
+  - [Entra ID, Identity & Endpoint](#entra-id-identity--endpoint)
 - [Database, Search & RAG](#database-search--rag)
 - [Memory & Context](#memory--context)
 - [Agent Platforms, Gateways & Clients](#agent-platforms-gateways--clients)
@@ -353,6 +357,7 @@ MCP servers for defensive and offensive security work. Use offensive tools only 
 - [google/mcp-security](https://github.com/google/mcp-security) ★536 - Google Security Operations (Chronicle SIEM/SOAR), Threat Intelligence and Security Command Center MCP servers.
 - [CrowdStrike/falcon-mcp](https://github.com/CrowdStrike/falcon-mcp) ★274 - Official CrowdStrike Falcon MCP for security analysis and threat hunting.
 - [gensecaihq/Wazuh-MCP-Server](https://github.com/gensecaihq/Wazuh-MCP-Server) ★262 - Wazuh SIEM MCP server with 55 tools: alert triage, threat hunting, vulnerability management and compliance mapping (PCI DSS, GDPR, HIPAA, NIST CSF, ISO 27001).
+- [Sentinel-One/purple-mcp](https://github.com/Sentinel-One/purple-mcp) ★101 - SentinelOne Purple AI and security services via MCP: alerts, vulnerabilities, misconfigurations and inventory.
 
 ### OSINT
 
@@ -390,8 +395,11 @@ MCP servers for defensive and offensive security work. Use offensive tools only 
 
 Gateways, guardrails, secrets, identity and audit trails for agents and MCP servers.
 
+- [casdoor/casdoor](https://github.com/casdoor/casdoor) ★14.7k - Agent-first IAM and MCP/LLM gateway with OAuth, OIDC, SAML, SCIM, WebAuthn, TOTP and MFA.
 - [archestra-ai/archestra](https://github.com/archestra-ai/archestra) ★4.4k - Enterprise AI platform with guardrails, MCP registry and gateway.
+- [octelium/octelium](https://github.com/octelium/octelium) ★4.1k - Self-hosted zero-trust access platform that also works as an API/AI/MCP gateway (SSO, MFA, policy-as-code).
 - [mnemox-ai/tradememory-protocol](https://github.com/mnemox-ai/tradememory-protocol) ★1.4k - Decision audit trail for AI trading agents with a tamper-evident hash chain.
+- [agentic-community/mcp-gateway-registry](https://github.com/agentic-community/mcp-gateway-registry) ★1.0k - Enterprise MCP gateway and registry with OAuth, Keycloak and Entra ID integration, audit-friendly tool access.
 - [VibeTensor/attestix](https://github.com/VibeTensor/attestix) ★841 - Agent identity, signed credentials, delegated authority and governance evidence.
 - [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) ★765 - MCP gateway turning REST, GraphQL, SOAP or SQL APIs into tools, with RBAC, SSO and audit logs.
 - [notinferred/keypaste](https://github.com/notinferred/keypaste) ★663 - KeePass-compatible password and secrets manager for people working with AI agents.
@@ -400,6 +408,32 @@ Gateways, guardrails, secrets, identity and audit trails for agents and MCP serv
 - [btsouth/toolport](https://github.com/btsouth/toolport) ★232 - Local-first MCP gateway with OS-keychain secrets, tool integrity checks and quarantine.
 - [MCP-Manager/MCP-Security-Checklists](https://github.com/MCP-Manager/MCP-Security-Checklists) ★199 - Security checklists for MCP servers, clients and hosts.
 - [Bevel-Software/Hexis](https://github.com/Bevel-Software/Hexis) ★122 - Centrally manage agent skills, tools, permissions and identity across an org.
+
+### Compliance, GRC & ISMS
+
+Star bar for this subsection is ★10+. ISO 27001 coverage is still thin: only one dedicated ISO 27001 MCP server exists at the snapshot date.
+
+- [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) ★4.6k - GRC platform for risk, compliance and audit with 200+ frameworks (ISO 27001, NIST CSF, SOC 2, NIS2, DORA, GDPR) and MCP support.
+- [arthurpanhku/DocSentinel](https://github.com/arthurpanhku/DocSentinel) ★89 - MCP server for assessing security documents and questionnaires: risks, compliance gaps and remediation.
+- [Farenhytee/database-sentinel](https://github.com/Farenhytee/database-sentinel) ★51 - Read-only security audit MCP server for Supabase (RLS, exposed keys), with scored reports.
+- [Sushegaad/MCP-Server-for-ISO27001](https://github.com/Sushegaad/MCP-Server-for-ISO27001) ★35 - Stateful ISO 27001:2022 ISMS server: gap assessments, risk management, policy generation, evidence tracking and audits (encrypted local SQLite).
+- [NISD2/open-isms](https://github.com/NISD2/open-isms) ★20 - Free, self-hostable ISMS for the EU NIS 2 Directive (GDPR, EU AI Act, CRA) with MCP support.
+- [writer/cerebro](https://github.com/writer/cerebro) ★15 - Turns security, identity, cloud and compliance data into evidence-backed context for agents.
+- [ComplianceCow/cow-mcp](https://github.com/ComplianceCow/cow-mcp) ★13 - MCP servers (Rules, Insights, Workflow, Assistant) automating GRC tasks.
+- [Threat-Vector-Security/guardian-agent](https://github.com/Threat-Vector-Security/guardian-agent) ★13 - Local workstation and network security with threat modeling and GRC via scoped MCP; optional Entra ID integration.
+- [AmanSK5/shadow-ai-guard](https://github.com/AmanSK5/shadow-ai-guard) ★13 - Shows which AI tools (including MCP) your organisation actually uses, with a governance portal (ISO 27001 / ISO 42001 oriented).
+
+### Entra ID, Identity & Endpoint
+
+Star bar for this subsection is ★10+. Microsoft Entra ID, Intune and identity-aware MCP access. See also [Microsoft 365](#microsoft-365).
+
+- [okieselbach/AutopilotMonitor](https://github.com/okieselbach/AutopilotMonitor) ★90 - Windows Autopilot and Intune enrollment monitoring with an MCP server for AI-assisted troubleshooting.
+- [Jinssi/AuthFlowMap](https://github.com/Jinssi/AuthFlowMap) ★66 - Interactive map of OAuth, Conditional Access, Entra Agent ID and MCP authentication flows (learning resource).
+- [OpenAdminOS/greybeard](https://github.com/OpenAdminOS/greybeard) ★34 - Microsoft 365, Intune and Entra admin skills plus MCP servers, with a human approval gate on every tenant write.
+- [babs/mcp-auth-proxy](https://github.com/babs/mcp-auth-proxy) ★18 - OAuth 2.1 and OIDC bridge for private MCP servers (works with Keycloak to Entra).
+- [aixolotl/microsoft-planner-mcp](https://github.com/aixolotl/microsoft-planner-mcp) ★15 - Unofficial Microsoft Planner MCP server using Graph and Entra ID delegated auth.
+- [microsoft/entrabot](https://github.com/microsoft/entrabot) ★12 - Reference implementation giving a device-local AI agent its own Microsoft Entra identity (Agent 365, Entra Agent ID).
+- [nelladath/Intune-mcp-server](https://github.com/nelladath/Intune-mcp-server) ★12 - MCP server for Microsoft Intune management via Graph.
 
 ## Database, Search & RAG
 
