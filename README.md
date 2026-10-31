@@ -7,7 +7,10 @@ A curated list of Model Context Protocol (MCP) repositories for AI agents.
 - ★ 100+ stars
 - Latest push within the last 3 months (pushed on/after 2026-07-31)
 - Actively related to MCP (server, client, SDK, gateway, or MCP-native tool)
-- Exception: the [ArtCraft Ecosystem](#artcraft-ecosystem-exception-below-100) section lists young projects below ★100 (all created in 2026 and recently pushed), because the ArtCraft MCP scene is new.
+- Exceptions (young or niche fields, lower star bar, same 3-month push rule):
+  - [ArtCraft Ecosystem](#artcraft-ecosystem-exception-below-100): any star count
+  - [CAE & Engineering Simulation](#cae--engineering-simulation): ★ 10+
+  - [Measurement & Instruments](#measurement--instruments): ★ 10+
 
 Snapshot date: 2026-10-31 (data via GitHub search API; stars are rounded).
 Note: "pushed" means the most recent push to any branch, which is a close proxy for the latest commit.
@@ -28,7 +31,14 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
   - [3D & Blender](#3d--blender)
   - [CAD & 3D Printing](#cad--3d-printing)
   - [Game Engines](#game-engines)
-  - [Simulation & Engineering](#simulation--engineering)
+- [CAE & Engineering Simulation](#cae--engineering-simulation)
+- [Measurement & Instruments](#measurement--instruments)
+- [Note Taking & Knowledge Bases](#note-taking--knowledge-bases)
+- [Microsoft 365](#microsoft-365)
+  - [Graph & Admin](#graph--admin)
+  - [Teams, Outlook & Calendar](#teams-outlook--calendar)
+  - [Excel & Office Documents](#excel--office-documents)
+  - [OneDrive, SharePoint & Dataverse](#onedrive-sharepoint--dataverse)
 - [Database, Search & RAG](#database-search--rag)
 - [Memory & Context](#memory--context)
 - [Agent Platforms, Gateways & Clients](#agent-platforms-gateways--clients)
@@ -80,6 +90,7 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
 ## Browser, Web & Scraping
 
 - [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) ★90.6k - Web scraping framework with MCP server.
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) ★38.9k - Official Playwright MCP server.
 - [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) ★14.0k - Thousands of ready-made scrapers via MCP.
 - [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) ★7.7k - Official Firecrawl MCP server.
 - [BrowserMCP/mcp](https://github.com/BrowserMCP/mcp) ★7.3k - Control your browser from AI apps.
@@ -153,7 +164,7 @@ MCP servers, gateways and skills:
 
 ## 3D, CAD, Game Engines & Simulation
 
-MCP servers that let agents drive 3D tools, CAD, 3D printers, game engines and engineering simulation.
+MCP servers that let agents drive 3D tools, CAD, 3D printers and game engines. For engineering simulation see [CAE & Engineering Simulation](#cae--engineering-simulation).
 
 ### 3D & Blender
 
@@ -187,19 +198,105 @@ MCP servers that let agents drive 3D tools, CAD, 3D printers, game engines and e
 - [IvanMurzak/Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) ★317 - MCP integration for the Godot Editor in C#.
 - [FunplayAI/funplay-unity-mcp](https://github.com/FunplayAI/funplay-unity-mcp) ★276 - Unity Editor MCP server with code execution and play-mode automation.
 
-### Simulation & Engineering
+## CAE & Engineering Simulation
 
+Structural (FEA), fluid (CFD), multiphysics and numerical computing. Star bar for this section is ★10+ because the field is young.
+
+- [matlab/matlab-mcp-server](https://github.com/matlab/matlab-mcp-server) ★1.7k - Official MathWorks MATLAB MCP server.
+- [tangency-labs/fieldcraft](https://github.com/tangency-labs/fieldcraft) ★253 - Rust modeler for structures, heat and fluids: meshing, nonlinear FEA and lattice Boltzmann CFD, built for engineers and agents.
 - [yusong652/itasca-mcp](https://github.com/yusong652/itasca-mcp) ★225 - MCP server for ITASCA engines (PFC, FLAC, 3DEC): geotechnical and geomechanics simulation.
+- [Whfkl/Abaqus-Control-MCP](https://github.com/Whfkl/Abaqus-Control-MCP) ★215 - Local MCP bridge for real-time control of Abaqus/CAE.
 - [gokeshenzhen/TraceWeave](https://github.com/gokeshenzhen/TraceWeave) ★125 - MCP server for RTL simulation debugging (VCS/Xcelium logs, waveforms, UVM).
+- [hongwenwang36-eng/ANSYS-Workbench-mcp](https://github.com/hongwenwang36-eng/ANSYS-Workbench-mcp) ★97 - Local MCP bridge for Ansys Workbench and MAPDL batch automation.
+- [cavoiie/fluent-cfd-skill](https://github.com/cavoiie/fluent-cfd-skill) ★86 - Skill for Ansys Fluent and PyFluent CFD workflows.
+- [armpro24-blip/cad-cae-copilot](https://github.com/armpro24-blip/cad-cae-copilot) ★83 - Text-to-CAD and text-to-CAE workbench (build123d/OpenCASCADE, CalculiX) with MCP tools.
+- [ansys/pyfluent-mcp](https://github.com/ansys/pyfluent-mcp) ★67 - Official PyFluent MCP server.
+- [kimimgo/awesome-ai-cae](https://github.com/kimimgo/awesome-ai-cae) ★64 - Curated list of 100+ AI-ready CAE tools (CFD, FEA, SPH, DEM, MCP servers).
+- [ansys/pymechanical-mcp](https://github.com/ansys/pymechanical-mcp) ★34 - Official PyMechanical MCP server.
+- [sandraschi/freecad-mcp](https://github.com/sandraschi/freecad-mcp) ★33 - FreeCAD automation with FluidX3D and OpenFOAM CFD extensions.
+- [ansys/pyaedt-mcp](https://github.com/ansys/pyaedt-mcp) ★30 - Official PyAEDT MCP server (electromagnetics).
+- [open-PASO/openPASO](https://github.com/open-PASO/openPASO) ★29 - MCP server that runs nine finite-element and multiphysics codes with cross-code coupling.
+- [Tomsabay/abaqus_agent](https://github.com/Tomsabay/abaqus_agent) ★29 - AI-driven Abaqus workbench with verification gates.
+- [ansys/pyansys-common-mcp](https://github.com/ansys/pyansys-common-mcp) ★23 - Official PyAnsys common MCP.
+- [kimimgo/viznoir](https://github.com/kimimgo/viznoir) ★19 - AI-ready VTK visualization for CFD and OpenFOAM results.
+- [isabecurtis023-lang/HarnessFOAM](https://github.com/isabecurtis023-lang/HarnessFOAM) ★17 - Multi-agent framework automating OpenFOAM CFD simulation (LangGraph, MCP).
+
+## Measurement & Instruments
+
+MCP servers for physical measurement, test equipment and industrial protocols. Star bar for this section is ★10+ because the field is sparse. No oscilloscope, multimeter or SCPI-specific MCP reached ★10 at the snapshot date.
+
+- [stixez/droid-mcp](https://github.com/stixez/droid-mcp) ★40 - Android SDK and MCP server exposing 157 device tools including sensors and camera.
+- [YaoIsAI/SerialRUN](https://github.com/YaoIsAI/SerialRUN) ★38 - Serial port debugging assistant with Modbus, PLC, CAN, I2C/SPI support and an MCP server.
+- [nobrega8/modbench](https://github.com/nobrega8/modbench) ★12 - Cross-platform Modbus TCP/RTU client for device testing and register debugging (MCP server topic).
+
+## Note Taking & Knowledge Bases
+
+### Obsidian & Markdown Vaults
+
+- [MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian) ★4.5k - MCP server for Obsidian via the Local REST API plugin.
+- [coddingtonbear/obsidian-local-rest-api](https://github.com/coddingtonbear/obsidian-local-rest-api) ★3.1k - Secure REST API and MCP server for your Obsidian vault.
+- [tianma-if/edgeever](https://github.com/tianma-if/edgeever) ★3.1k - AI-native knowledge base (Evernote/Obsidian alternative) with native MCP.
+- [bitbonsai/mcpvault](https://github.com/bitbonsai/mcpvault) ★1.7k - Lightweight MCP server for safe Obsidian vault access.
+- [StevenStavrakis/obsidian-mcp](https://github.com/StevenStavrakis/obsidian-mcp) ★749 - Simple MCP server for Obsidian.
+- [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) ★698 - Read, write, search and edit Obsidian notes, tags and frontmatter via MCP.
+- [docsagent/docsagent](https://github.com/docsagent/docsagent) ★579 - Private knowledge base search across Zotero, Obsidian and Apple Notes.
+- [rotbit/xedit](https://github.com/rotbit/xedit) ★184 - Local-first markdown editor (Obsidian/Notion style) with MCP for AI.
+- [andylow92/file-system-brain-mcp](https://github.com/andylow92/file-system-brain-mcp) ★162 - Markdown vault with 24-tool MCP server, semantic search and RAG.
+
+### Notion
+
+- [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) ★4.7k - Official Notion MCP server.
+- [suekou/mcp-notion-server](https://github.com/suekou/mcp-notion-server) ★924 - MCP server connecting Notion to MCP clients.
+- [awkoy/notion-mcp-server](https://github.com/awkoy/notion-mcp-server) ★179 - Notion MCP server with token auth and a small tool surface.
+- [makenotion/lore](https://github.com/makenotion/lore) ★179 - Persistent shared AI memory backed by Notion.
+
+### Zotero, Logseq, Joplin & Apple Notes
+
+- [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp) ★5.7k - Connect your Zotero library to AI assistants.
+- [papersgpt/papersgpt-for-zotero](https://github.com/papersgpt/papersgpt-for-zotero) ★2.7k - AI research tool for Zotero with built-in MCP server.
+- [cookjohn/zotero-mcp](https://github.com/cookjohn/zotero-mcp) ★1.3k - Zotero plugin enabling AI assistant integration through MCP.
+- [ergut/mcp-logseq](https://github.com/ergut/mcp-logseq) ★349 - MCP server for LogSeq via its local HTTP API.
+- [introfini/ZotSeek](https://github.com/introfini/ZotSeek) ★238 - Local AI semantic search for Zotero with a built-in MCP server.
+- [alondmnt/joplin-mcp](https://github.com/alondmnt/joplin-mcp) ★174 - MCP server for the Joplin note taking app.
+- [sweetrb/apple-notes-mcp](https://github.com/sweetrb/apple-notes-mcp) ★173 - Read, search, create and edit Apple Notes on macOS.
+- [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp) ★162 - Lightweight MCP server for the Zotero API.
+
+## Microsoft 365
+
+### Graph & Admin
+
+- [Softeria/ms-365-mcp-server](https://github.com/Softeria/ms-365-mcp-server) ★1.1k - MCP server for Microsoft 365 and Office services through the Graph API.
+- [merill/lokka](https://github.com/merill/lokka) ★310 - MCP for Microsoft 365 including Microsoft Graph.
+- [pnp/cli-microsoft365-mcp-server](https://github.com/pnp/cli-microsoft365-mcp-server) ★135 - Manage Microsoft 365 with an MCP server (CLI for Microsoft 365).
+
+### Teams, Outlook & Calendar
+
+- [Vexa-ai/vexa](https://github.com/Vexa-ai/vexa) ★2.9k - Meeting transcription API for Google Meet, Microsoft Teams and Zoom, with MCP server.
+- [ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh) ★1.4k - Calendar sync and universal calendar MCP server (Google, Outlook, Office 365, iCloud, CalDAV).
+- [InditexTech/mcp-teams-server](https://github.com/InditexTech/mcp-teams-server) ★463 - Read, create and reply to Microsoft Teams messages.
+- [floriscornel/teams-mcp](https://github.com/floriscornel/teams-mcp) ★148 - Microsoft Teams and Graph API access: messaging, search and user management.
+- [tecnologicachile/mail-mcp](https://github.com/tecnologicachile/mail-mcp) ★112 - Secure IMAP/SMTP/EWS/Graph mail MCP server in Rust (Microsoft 365, Gmail and more).
+
+### Excel & Office Documents
+
+- [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) ★4.3k - Create and edit Excel files with charts, PivotTables and formulas (no Excel required).
+- [sbroenne/mcp-server-excel](https://github.com/sbroenne/mcp-server-excel) ★836 - Automate real Microsoft Excel: Power Query, DAX, VBA, PivotTables.
+- [harumiWeb/exstruct](https://github.com/harumiWeb/exstruct) ★203 - Excel to structured JSON for LLM pipelines, plus agent read/write via CLI and MCP.
+- [Aimino-Tech/opendocswork-mcp](https://github.com/Aimino-Tech/opendocswork-mcp) ★162 - Rust MCP server for Excel, Word and PowerPoint processing.
+
+### OneDrive, SharePoint & Dataverse
+
+- [microsoft/Dataverse-skills](https://github.com/microsoft/Dataverse-skills) ★250 - Dataverse skills for AI agents, wrapping the Dataverse MCP server, CLI and Python SDK.
+- [lionello/onedrive-cli](https://github.com/lionello/onedrive-cli) ★178 - Command line interface and MCP for OneDrive.
+- [microsoft/SharePoint-Embedded-Samples](https://github.com/microsoft/SharePoint-Embedded-Samples) ★108 - SharePoint Embedded samples, including an MCP server for AI coding agents.
 
 ## Database, Search & RAG
 
 - [xerj-org/xerj](https://github.com/xerj-org/xerj) ★17.8k - Rust search engine and MCP server (BM25, vector, hybrid).
 - [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) ★5.3k - SQL workspace with built-in MCP server.
-- [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) ★3.9k - Permission-aware context layer over company knowledge.
+- [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) ★3.9k - Permission-aware context layer over company knowledge (Slack, Drive, Microsoft 365 and more).
 - [bytebase/dbhub](https://github.com/bytebase/dbhub) ★3.8k - Token-conscious database MCP server.
 - [dineug/erd-editor](https://github.com/dineug/erd-editor) ★1.7k - ERD editor that agents can edit live over MCP.
-- [docsagent/docsagent](https://github.com/docsagent/docsagent) ★579 - Private knowledge base search (Zotero, Obsidian, Apple Notes).
 - [faucetdb/faucet](https://github.com/faucetdb/faucet) ★167 - Turn any SQL database into a governed REST API with MCP support.
 
 ## Memory & Context
@@ -237,8 +334,6 @@ MCP servers that let agents drive 3D tools, CAD, 3D printers, game engines and e
 ## Productivity & Knowledge
 
 - [rusq/slackdump](https://github.com/rusq/slackdump) ★2.8k - Export Slack data locally (with MCP server).
-- [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server) ★698 - Read, write and search Obsidian vault notes via MCP.
-- [awkoy/notion-mcp-server](https://github.com/awkoy/notion-mcp-server) ★179 - Notion MCP server with token auth.
 
 ## Domain Apps
 
