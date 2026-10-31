@@ -7,6 +7,7 @@ A curated list of Model Context Protocol (MCP) repositories for AI agents.
 - ★ 100+ stars
 - Latest push within the last 3 months (pushed on/after 2026-07-31)
 - Actively related to MCP (server, client, SDK, gateway, or MCP-native tool)
+- Exception: the [ArtCraft Ecosystem](#artcraft-ecosystem-exception-below-100) section lists young projects below ★100 (all created in 2026 and recently pushed), because the ArtCraft MCP scene is new.
 
 Snapshot date: 2026-10-31 (data via GitHub search API; stars are rounded).
 Note: "pushed" means the most recent push to any branch, which is a close proxy for the latest commit.
@@ -17,6 +18,12 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
 - [Awesome Lists & Directories](#awesome-lists--directories)
 - [Coding & Developer Tools](#coding--developer-tools)
 - [Browser, Web & Scraping](#browser-web--scraping)
+- [Images, Video & Audio Operation](#images-video--audio-operation)
+  - [Image & Design](#image--design)
+  - [Video](#video)
+  - [Audio & Sound](#audio--sound)
+  - [All-in-one Creative Studios](#all-in-one-creative-studios)
+  - [ArtCraft Ecosystem (exception: below ★100)](#artcraft-ecosystem-exception-below-100)
 - [Database, Search & RAG](#database-search--rag)
 - [Memory & Context](#memory--context)
 - [Agent Platforms, Gateways & Clients](#agent-platforms-gateways--clients)
@@ -80,6 +87,65 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
 - [opentabs-dev/opentabs](https://github.com/opentabs-dev/opentabs) ★1.0k - Call web app APIs instead of clicking buttons.
 - [feder-cr/invisible_playwright_mcp](https://github.com/feder-cr/invisible_playwright_mcp) ★886 - Undetected Playwright MCP server.
 
+## Images, Video & Audio Operation
+
+MCP servers and tools that let agents generate, edit, analyze, or process images, video and sound.
+
+### Image & Design
+
+- [Manavarya09/design-extract](https://github.com/Manavarya09/design-extract) ★4.4k - Extract a website's design system (tokens, Figma variables, Tailwind) with an MCP server.
+- [glincker/thesvg](https://github.com/glincker/thesvg) ★2.9k - Open SVG brand and cloud icon library, searchable via MCP.
+- [jau123/MeiGen-AI-Design-MCP](https://github.com/jau123/MeiGen-AI-Design-MCP) ★1.8k - Find inspiration and create images and videos with the latest AI models.
+- [marvkr/better-design](https://github.com/marvkr/better-design) ★545 - Design-system MCP server and shadcn/ui registry.
+
+### Video
+
+- [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) ★4.1k - 42 local FFmpeg tools for cutting, captions, reframing and exports, with an MCP server.
+- [jordanrendric/claude-video-vision](https://github.com/jordanrendric/claude-video-vision) ★1.4k - Lets Claude watch and understand videos (frame extraction and audio analysis).
+- [xixihhhh/clipforge](https://github.com/xixihhhh/clipforge) ★1.2k - Open-source AI short-video generator for e-commerce, with MCP.
+
+### Audio & Sound
+
+- [MiniMax-AI/MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP) ★1.6k - Official MiniMax MCP: text-to-speech, voice cloning, image and video generation.
+- [kanaworksai-hue/audio-studio-mcp](https://github.com/kanaworksai-hue/audio-studio-mcp) ★548 - Local AI BGM and sound effects (Stable Audio 3), no cloud or API key.
+
+### All-in-one Creative Studios
+
+- [artokun/comfyui-mcp](https://github.com/artokun/comfyui-mcp) ★879 - MCP server and agent for ComfyUI: images, video and audio, 178 tools.
+- [guaardvark/guaardvark](https://github.com/guaardvark/guaardvark) ★294 - Self-hosted AI studio with MCP server and local video, image, music and voice generation.
+
+### ArtCraft Ecosystem (exception: below ★100)
+
+[ArtCraft](https://github.com/storytold/artcraft) (★37.9k) is an open-source "IDE for artists" for AI image and video creation. A family of Rust "Craft" apps surrounds it; third-party projects below expose them to agents through MCP, CLI or skills. All of these were created in 2026 and pushed recently, but most have fewer than 100 stars, so treat them as early-stage.
+
+Host apps (MCP surface is documented by the third-party projects below, not verified in each README):
+[PhotoCraft](https://github.com/storytold/photocraft) ★75.4k (photo editor) · [LightCraft](https://github.com/storytold/lightcraft) ★15.1k (RAW editor) · [VectorCraft](https://github.com/storytold/vectorcraft) ★11.1k (vector art) · [FilmCraft](https://github.com/storytold/filmcraft) ★17.0k (video editor) · [EffectCraft](https://github.com/storytold/effectcraft) ★8.2k (motion graphics)
+
+MCP servers, gateways and skills:
+
+- [herdodp/snapgent-connector](https://github.com/herdodp/snapgent-connector) ★67 - Chatbot connector that links many apps via MCP.
+- [midasmatterhorn/artcraft-skills](https://github.com/midasmatterhorn/artcraft-skills) ★51 - Evidence-verified agent skills for the ArtCraft suite (MCP and CLI).
+- [theCosmicCrafter/artcraft-mcp](https://github.com/theCosmicCrafter/artcraft-mcp) ★33 - Rust MCP server for ArtCraft.
+- [devsolux/storytold](https://github.com/devsolux/storytold) ★10 - Claude Code and Codex plugin driving 13 headless Craft MCP apps (photo, vector, video, RAW, audio, motion and more).
+- [smoermeow/artcraft-mcp](https://github.com/smoermeow/artcraft-mcp) ★6 - ArtCraft subscription MCP server for Hermes Agent (image and video generation).
+- [kjranyone/artcraft-agent-skills](https://github.com/kjranyone/artcraft-agent-skills) ★0 - Skills for FilmCraft (video editing) and EffectCraft (motion graphics/VFX) via CLI, MCP and GUI bridge.
+- [xiewg1987/artcraft-command-bridge](https://github.com/xiewg1987/artcraft-command-bridge) ★0 - One MCP server for all 13 Craft apps (5 tools instead of 799).
+- [jw2122-kiwi/artcraft-mcp](https://github.com/jw2122-kiwi/artcraft-mcp) ★0 - MCP gateway for 13 Craft apps behind one HTTP endpoint.
+- [GadatheGod/artcraft-mcp-unified-router](https://github.com/GadatheGod/artcraft-mcp-unified-router) ★0 - Unified MCP router with dynamic tool discovery.
+- [Shin-seong-su/artcraft-mcp](https://github.com/Shin-seong-su/artcraft-mcp) ★0 - Control local ArtCraft apps from ChatGPT (macOS installer beta).
+- [sandraschi/democraft-mcp](https://github.com/sandraschi/democraft-mcp) ★1 - Live demos of the 13 Craft apps producing real files (MP4, WAV, DOCX and more), MCP server and web app.
+- [kosecom/art-cli](https://github.com/kosecom/art-cli) ★1 - ArtCraft integration for Hermes via CLI and stdio MCP (Windows and macOS).
+- [dnviti/artcraft-skills](https://github.com/dnviti/artcraft-skills) ★1 - Community skills for ArtCraft apps, installable with skills.sh.
+- [lznnnnn1998/dsh-artcraft](https://github.com/lznnnnn1998/dsh-artcraft) ★1 - 12 DSH plugins driving Craft apps (CADCraft, GridCraft, SoundCraft and more).
+- [verdulife/pi-artcraft](https://github.com/verdulife/pi-artcraft) ★0 - Pi package toggling FigCraft and VectorCraft per session with MCP attached.
+- [joaoalvesmarrucho/patio-artcraft](https://github.com/joaoalvesmarrucho/patio-artcraft) ★0 - Skill driving VectorCraft through its official MCP route.
+- [anton-belkin/aitocraft](https://github.com/anton-belkin/aitocraft) ★0 - One MCP connector to open documents in GridCraft, WordCraft and DeckCraft.
+- [MGBuilds9/craft-agent-kit](https://github.com/MGBuilds9/craft-agent-kit) ★0 - CLI wrappers, MCP configs and skills for all 13 apps.
+- [esanchma/mcp-trigger](https://github.com/esanchma/mcp-trigger) ★0 - Stdio MCP server that opens the ArtCraft desktop app only when a tool is called.
+- [MGrunwald42/safecraft-mcp](https://github.com/MGrunwald42/safecraft-mcp) ★0 - Run ArtCraft tools through MCP inside a sandbox.
+- [xouel/artcraft-ai-bridge](https://github.com/xouel/artcraft-ai-bridge) ★0 - C#/WPF MCP bridge for FigCraft, PhotoCraft and GridCraft on Windows.
+- [kleinhansda/artcraft-mcp-ha](https://github.com/kleinhansda/artcraft-mcp-ha) ★0 - Home Assistant add-on exposing VectorCraft, PhotoCraft and PdfCraft as remote MCP servers.
+
 ## Database, Search & RAG
 
 - [xerj-org/xerj](https://github.com/xerj-org/xerj) ★17.8k - Rust search engine and MCP server (BM25, vector, hybrid).
@@ -137,10 +203,8 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
 - [liketrek/TREK](https://github.com/liketrek/TREK) ★15.3k - Travel planner with MCP server.
 - [budtmo/docker-android](https://github.com/budtmo/docker-android) ★16.1k - Android in Docker with MCP server.
 - [irinabuht12-oss/google-ads-meta-ads-mcp](https://github.com/irinabuht12-oss/google-ads-meta-ads-mcp) ★6.6k - Google Ads, Meta Ads and GA4 hosted MCP.
-- [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) ★4.1k - Local video editing tools for agents.
 - [crbnos/carbon](https://github.com/crbnos/carbon) ★2.8k - Manufacturing ERP/MES/QMS with MCP server.
 - [relaticle/relaticle](https://github.com/relaticle/relaticle) ★1.8k - CRM your AI agents can read and update.
-- [marvkr/better-design](https://github.com/marvkr/better-design) ★545 - Design-system MCP server and shadcn/ui registry.
 
 ## Contributing
 
