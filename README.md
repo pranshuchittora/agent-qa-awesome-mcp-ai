@@ -53,6 +53,11 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
   - [MCP & Agent Security](#mcp--agent-security)
   - [Compliance, GRC & ISMS](#compliance-grc--isms)
   - [Entra ID, Identity & Endpoint](#entra-id-identity--endpoint)
+- [No-code Databases & Database Management](#no-code-databases--database-management)
+  - [No-code Databases (NocoDB-style)](#no-code-databases-nocodb-style)
+  - [SQL Clients, Schema & API Generators](#sql-clients-schema--api-generators)
+  - [Per-database MCP Servers](#per-database-mcp-servers)
+  - [Monitoring, DBA & Governance](#monitoring-dba--governance)
 - [Database, Search & RAG](#database-search--rag)
 - [Memory & Context](#memory--context)
 - [Agent Platforms, Gateways & Clients](#agent-platforms-gateways--clients)
@@ -435,14 +440,55 @@ Star bar for this subsection is ★10+. Microsoft Entra ID, Intune and identity-
 - [microsoft/entrabot](https://github.com/microsoft/entrabot) ★12 - Reference implementation giving a device-local AI agent its own Microsoft Entra identity (Agent 365, Entra Agent ID).
 - [nelladath/Intune-mcp-server](https://github.com/nelladath/Intune-mcp-server) ★12 - MCP server for Microsoft Intune management via Graph.
 
+## No-code Databases & Database Management
+
+Tools for managing SQL data without hand-writing SQL, plus per-database MCP servers and DBA tooling.
+
+### No-code Databases (NocoDB-style)
+
+Self-hostable Airtable alternatives that sit on top of SQL databases. For the five platforms marked "built-in MCP", MCP code was confirmed by searching each repository's source (not by reading documentation), so check the project docs for setup.
+
+- [nocodb/nocodb](https://github.com/nocodb/nocodb) ★65.4k - Self-hostable Airtable alternative over PostgreSQL/SQLite; built-in MCP (MCP service and tokens in source).
+- [directus/directus](https://github.com/directus/directus) ★38.8k - Turn a SQL database (Postgres, MySQL, SQLite, MSSQL) into a headless CMS and admin app; built-in MCP (OAuth service in source).
+- [teableio/teable](https://github.com/teableio/teable) ★21.9k - AI spreadsheet on PostgreSQL; MCP-related OAuth components in source.
+- [gristlabs/grist-core](https://github.com/gristlabs/grist-core) ★12.0k - Relational spreadsheet-database; MCP connect banner in the client.
+- [baserow/baserow](https://github.com/baserow/baserow) ★6.2k - No-code database and app builder on PostgreSQL; built-in MCP (MCP backend modules in source; official config repo [baserow/baserow-mcp](https://github.com/baserow/baserow-mcp) ★2).
+- [supabase/mcp](https://github.com/supabase/mcp) ★3.0k - Official Supabase MCP server (Postgres, auth, storage).
+- [julien040/anyquery](https://github.com/julien040/anyquery) ★1.8k - One SQL interface for 60+ tools (Notion, Airtable, GitHub) exposed through MCP.
+- [domdomegg/airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server) ★456 - Airtable MCP server.
+- [saltmd/salt.md](https://github.com/saltmd/salt.md) ★176 - Docs, databases and realtime collaboration with an MCP server in one Go binary and one SQLite file.
+
+### SQL Clients, Schema & API Generators
+
+- [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) ★5.3k - Desktop SQL workspace with built-in MCP server, SQL notebooks and visual EXPLAIN.
+- [bytebase/dbhub](https://github.com/bytebase/dbhub) ★3.8k - Token-conscious database MCP server for Postgres, MySQL, SQL Server, Oracle, MariaDB and SQLite.
+- [dineug/erd-editor](https://github.com/dineug/erd-editor) ★1.7k - ERD editor that agents can edit live over MCP.
+- [pgplex/pgconsole](https://github.com/pgplex/pgconsole) ★157 - Minimal Postgres editor for speed, collaboration and AI (MCP server).
+- [faucetdb/faucet](https://github.com/faucetdb/faucet) ★167 - Turn any SQL database into a governed REST API with RBAC and MCP support.
+
+### Per-database MCP Servers
+
+- [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide) ★1.9k - MCP server and Claude plugin for Postgres skills and documentation.
+- [designcomputer/mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server) ★1.4k - Secure MCP server for MySQL.
+- [mongodb-js/mongodb-mcp-server](https://github.com/mongodb-js/mongodb-mcp-server) ★1.2k - Official MCP server for MongoDB and MongoDB Atlas.
+- [redis/mcp-redis](https://github.com/redis/mcp-redis) ★641 - Official Redis MCP server.
+- [timescale/tiger-cli](https://github.com/timescale/tiger-cli) ★127 - Tiger Cloud CLI with an MCP server for production-level Postgres code.
+
+### Monitoring, DBA & Governance
+
+- [BetterDB-inc/monitor](https://github.com/BetterDB-inc/monitor) ★1.3k - Real-time monitoring, slowlog analysis and audit trails for Valkey and Redis.
+- [erikdarlingdata/PerformanceMonitor](https://github.com/erikdarlingdata/PerformanceMonitor) ★526 - SQL Server and Postgres performance monitoring with an MCP server for AI analysis.
+- [ashishsinha1602/schemagate](https://github.com/ashishsinha1602/schemagate) ★179 - Text-to-SQL access control: gives the LLM only the tables the caller may read (row-level-security aware).
+- [call518/MCP-PostgreSQL-Ops](https://github.com/call518/MCP-PostgreSQL-Ops) ★164 - 30+ PostgreSQL DBA tools: performance, bloat, locks, autovacuum.
+- [postgres-ai/postgresai](https://github.com/postgres-ai/postgresai) ★140 - Postgres observability for humans and AI agents.
+- [benseverndev-oss/goldenmatch](https://github.com/benseverndev-oss/goldenmatch) ★135 - Entity resolution and master data management with 97 MCP tools (Postgres, DuckDB).
+
 ## Database, Search & RAG
 
+For database clients and DBA tooling see [No-code Databases & Database Management](#no-code-databases--database-management).
+
 - [xerj-org/xerj](https://github.com/xerj-org/xerj) ★17.8k - Rust search engine and MCP server (BM25, vector, hybrid).
-- [TabularisDB/tabularis](https://github.com/TabularisDB/tabularis) ★5.3k - SQL workspace with built-in MCP server.
 - [pipeshub-ai/pipeshub-ai](https://github.com/pipeshub-ai/pipeshub-ai) ★3.9k - Permission-aware context layer over company knowledge (Slack, Drive, Microsoft 365 and more).
-- [bytebase/dbhub](https://github.com/bytebase/dbhub) ★3.8k - Token-conscious database MCP server.
-- [dineug/erd-editor](https://github.com/dineug/erd-editor) ★1.7k - ERD editor that agents can edit live over MCP.
-- [faucetdb/faucet](https://github.com/faucetdb/faucet) ★167 - Turn any SQL database into a governed REST API with MCP support.
 
 ## Memory & Context
 
