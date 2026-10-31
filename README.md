@@ -10,7 +10,7 @@ A curated list of Model Context Protocol (MCP) repositories for AI agents.
 - Exceptions (young or niche fields, lower star bar, same 3-month push rule):
   - [ArtCraft Ecosystem](#artcraft-ecosystem-exception-below-100): any star count
   - [CAE & Engineering Simulation](#cae--engineering-simulation): ★ 10+
-  - [Measurement & Instruments](#measurement--instruments): ★ 10+
+  - [Measurement & Instruments](#measurement--instruments): ★ 1+
 
 Snapshot date: 2026-10-31 (data via GitHub search API; stars are rounded).
 Note: "pushed" means the most recent push to any branch, which is a close proxy for the latest commit.
@@ -33,6 +33,10 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
   - [Game Engines](#game-engines)
 - [CAE & Engineering Simulation](#cae--engineering-simulation)
 - [Measurement & Instruments](#measurement--instruments)
+  - [Instrument Control & Test Equipment](#instrument-control--test-equipment)
+  - [Logic Analyzers & Embedded Debugging](#logic-analyzers--embedded-debugging)
+  - [LabVIEW](#labview)
+  - [Data Acquisition, Sensors & Industrial Protocols](#data-acquisition-sensors--industrial-protocols)
 - [Note Taking & Knowledge Bases](#note-taking--knowledge-bases)
 - [Microsoft 365](#microsoft-365)
   - [Graph & Admin](#graph--admin)
@@ -223,11 +227,54 @@ Structural (FEA), fluid (CFD), multiphysics and numerical computing. Star bar fo
 
 ## Measurement & Instruments
 
-MCP servers for physical measurement, test equipment and industrial protocols. Star bar for this section is ★10+ because the field is sparse. No oscilloscope, multimeter or SCPI-specific MCP reached ★10 at the snapshot date.
+MCP servers for physical measurement, test equipment, embedded debugging and industrial protocols. Star bar for this section is ★1+ because the field is very young (almost everything here appeared in 2026). Expect rough edges.
+
+### Instrument Control & Test Equipment
+
+- [lagerdata/lager](https://github.com/lagerdata/lager) ★9 - Hardware test automation: drive real instruments and embedded targets from a laptop or CI.
+- [Anai-Guo/LabAgent](https://github.com/Anai-Guo/LabAgent) ★8 - AI lab assistant with 46 measurement templates for GPIB/PyVISA instruments (Keithley, Lakeshore).
+- [mrn2se/AgenticWebInstrumentControl](https://github.com/mrn2se/AgenticWebInstrumentControl) ★6 - Web, AI-agent and SCPI control for cheap USB oscilloscopes and logic analyzers.
+- [techmanual-ai/lablink-mcp](https://github.com/techmanual-ai/lablink-mcp) ★5 - Unified MCP server for lab equipment over VISA/SCPI, SSH, REST and serial.
+- [sandraschi/oscilloscope-mcp](https://github.com/sandraschi/oscilloscope-mcp) ★5 - FastMCP server for USB PC oscilloscopes.
+- [reinhardjvv/labrat](https://github.com/reinhardjvv/labrat) ★3 - Universal interface for lab automation (instrument control, SCPI).
+- [mabl/pyMSO5000](https://github.com/mabl/pyMSO5000) ★3 - Python client and MCP server for Rigol MSO5000 oscilloscopes.
+- [KenosInc/dwf-mcp-server](https://github.com/KenosInc/dwf-mcp-server) ★3 - MCP server for the Digilent Analog Discovery 3 (scope, signal generator, logic analysis).
+- [fengbihe/ScopeBridge](https://github.com/fengbihe/ScopeBridge) ★3 - Local oscilloscope workbench with web UI, offline voice and MCP tools.
+- [colingimenez/SCPI_MCP](https://github.com/colingimenez/SCPI_MCP) ★1 - Benchtop waveform generator, multimeter, oscilloscope and power supply over SCPI.
+- [mp911de/siglent-scpi-mcp](https://github.com/mp911de/siglent-scpi-mcp) ★1 - MCP server for Siglent oscilloscopes (SCPI over TCP).
+- [RainfallMax/instr-core](https://github.com/RainfallMax/instr-core) ★1 - Type system and safety firewall between AI assistants and physical instruments.
+- [sandraschi/spectrum-analyzer-mcp](https://github.com/sandraschi/spectrum-analyzer-mcp) ★1 - Spectrum analyzer MCP for RTL-SDR and TinySA.
+- [BonBear/open-ps3005d](https://github.com/BonBear/open-ps3005d) ★1 - Control for the Velleman PS3005D lab power supply with an MCP server.
+- [f-steff/KUAIQU-NICE-PSU](https://github.com/f-steff/KUAIQU-NICE-PSU) ★1 - Controller for KUAIQU-NICE-POWER programmable DC supplies with an MCP stdio server.
+
+### Logic Analyzers & Embedded Debugging
+
+- [Clifford-Swartz/peripheral-pretender](https://github.com/Clifford-Swartz/peripheral-pretender) ★49 - QEMU digital twin of Microchip boards with logic-analyzer timeline, fault injection and MCP.
+- [YaoIsAI/SerialRUN](https://github.com/YaoIsAI/SerialRUN) ★38 - Serial port debugging assistant with Modbus, PLC, CAN, I2C/SPI support and an MCP server.
+- [keyuraghao/chipwhisperer-studio](https://github.com/keyuraghao/chipwhisperer-studio) ★24 - ChipWhisperer side-channel and fault-injection studio with scope, logic analyzer and MCP server.
+- [Kyin-code/KDock](https://github.com/Kyin-code/KDock) ★16 - Embedded-focused AI agent platform: serial/network I/O, flashing, scope and logic analyzer tools.
+- [KenosInc/sigrok-mcp-server](https://github.com/KenosInc/sigrok-mcp-server) ★14 - AI logic analyzer control via sigrok-cli for signal capture and protocol decoding.
+- [hugelzhang/atk-logic-mcp](https://github.com/hugelzhang/atk-logic-mcp) ★3 - MCP server for the ALIENTEK ATK-Logic analyzer with 208 sigrok decoders.
+- [sandraschi/logic-analyzer-mcp](https://github.com/sandraschi/logic-analyzer-mcp) ★2 - USB logic analyzer MCP with a sigrok backend.
+- [ling99LL/ag32-logic-analyzer](https://github.com/ling99LL/ag32-logic-analyzer) ★1 - Four-channel logic analyzer on AG32VF303 with signal generator and MCP server.
+- [controlpaths/tramuntana](https://github.com/controlpaths/tramuntana) ★1 - Open hardware tool for debugging embedded systems (SPI/I2C/UART, scope, logic analyzer) with an MCP server.
+
+### LabVIEW
+
+- [Zuehlke/labview-mcp](https://github.com/Zuehlke/labview-mcp) ★93 - Connect AI to LabVIEW.
+- [JanGoebel/LabVIEW-MCP-Server-Toolkit](https://github.com/JanGoebel/LabVIEW-MCP-Server-Toolkit) ★67 - Toolkit to host MCP servers from LabVIEW.
+- [chinayuren2022-2025/labview-native-mcp](https://github.com/chinayuren2022-2025/labview-native-mcp) ★11 - Native LabVIEW 2021 VI Scripting MCP for Windows (create, wire, run VIs via COM).
+- [abcdefghkang/labview-vi-mcp](https://github.com/abcdefghkang/labview-vi-mcp) ★2 - LabVIEW VI development and HMI restoration skill via the LabVIEW Native MCP server.
+- [kostandrey/labview-mcp](https://github.com/kostandrey/labview-mcp) ★1 - Early proof of concept for self-driving LabVIEW code generation.
+- [JorgenSteen/labview-mcp-skills](https://github.com/JorgenSteen/labview-mcp-skills) ★1 - Skills for using the LabVIEW MCP effectively.
+- [LYXLCF/-LabVIEW-CSM-MCP-Server](https://github.com/LYXLCF/-LabVIEW-CSM-MCP-Server) ★1 - MCP server for LabVIEW CSM (Communicable State Machine) block diagrams.
+
+### Data Acquisition, Sensors & Industrial Protocols
 
 - [stixez/droid-mcp](https://github.com/stixez/droid-mcp) ★40 - Android SDK and MCP server exposing 157 device tools including sensors and camera.
-- [YaoIsAI/SerialRUN](https://github.com/YaoIsAI/SerialRUN) ★38 - Serial port debugging assistant with Modbus, PLC, CAN, I2C/SPI support and an MCP server.
 - [nobrega8/modbench](https://github.com/nobrega8/modbench) ★12 - Cross-platform Modbus TCP/RTU client for device testing and register debugging (MCP server topic).
+- [daqifi/daqifi-core](https://github.com/daqifi/daqifi-core) ★5 - Official .NET SDK for DAQiFi wireless data acquisition devices, with an MCP server.
+- [Sgh1107/FieldLink-Modbus-DataAcquisition](https://github.com/Sgh1107/FieldLink-Modbus-DataAcquisition) ★3 - Qt6 industrial Modbus data acquisition platform (TCP/RTU, MQTT, alarms) with MCP support.
 
 ## Note Taking & Knowledge Bases
 
