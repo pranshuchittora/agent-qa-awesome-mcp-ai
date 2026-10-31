@@ -43,6 +43,12 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
   - [Teams, Outlook & Calendar](#teams-outlook--calendar)
   - [Excel & Office Documents](#excel--office-documents)
   - [OneDrive, SharePoint & Dataverse](#onedrive-sharepoint--dataverse)
+- [Security](#security)
+  - [SOC, SIEM & Threat Intelligence](#soc-siem--threat-intelligence)
+  - [OSINT](#osint)
+  - [Offensive Security & Vulnerability Scanning](#offensive-security--vulnerability-scanning)
+  - [Reverse Engineering & Malware Analysis](#reverse-engineering--malware-analysis)
+  - [MCP & Agent Security](#mcp--agent-security)
 - [Database, Search & RAG](#database-search--rag)
 - [Memory & Context](#memory--context)
 - [Agent Platforms, Gateways & Clients](#agent-platforms-gateways--clients)
@@ -336,6 +342,64 @@ MCP servers for physical measurement, test equipment, embedded debugging and ind
 - [microsoft/Dataverse-skills](https://github.com/microsoft/Dataverse-skills) ★250 - Dataverse skills for AI agents, wrapping the Dataverse MCP server, CLI and Python SDK.
 - [lionello/onedrive-cli](https://github.com/lionello/onedrive-cli) ★178 - Command line interface and MCP for OneDrive.
 - [microsoft/SharePoint-Embedded-Samples](https://github.com/microsoft/SharePoint-Embedded-Samples) ★108 - SharePoint Embedded samples, including an MCP server for AI coding agents.
+
+## Security
+
+MCP servers for defensive and offensive security work. Use offensive tools only on systems you are authorized to test. For reverse-engineering tools listed elsewhere see [x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server), [js-reverse-mcp](https://github.com/zhizhuodemao/js-reverse-mcp) and [jshookmcp](https://github.com/vmoranv/jshookmcp).
+
+### SOC, SIEM & Threat Intelligence
+
+- [7onez/cti-expert](https://github.com/7onez/cti-expert) ★619 - Cyber threat intelligence and OSINT analysis skill with 79 typed MCP tools and ICD-203 reports.
+- [google/mcp-security](https://github.com/google/mcp-security) ★536 - Google Security Operations (Chronicle SIEM/SOAR), Threat Intelligence and Security Command Center MCP servers.
+- [CrowdStrike/falcon-mcp](https://github.com/CrowdStrike/falcon-mcp) ★274 - Official CrowdStrike Falcon MCP for security analysis and threat hunting.
+- [gensecaihq/Wazuh-MCP-Server](https://github.com/gensecaihq/Wazuh-MCP-Server) ★262 - Wazuh SIEM MCP server with 55 tools: alert triage, threat hunting, vulnerability management and compliance mapping (PCI DSS, GDPR, HIPAA, NIST CSF, ISO 27001).
+
+### OSINT
+
+- [OpenOSINT/OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) ★1.8k - Passive OSINT engine with 21 tools as CLI, MCP server and web UI.
+- [w0h1v/mcp-maigret](https://github.com/w0h1v/mcp-maigret) ★268 - Username search across thousands of sites with maigret.
+- [OSINT-Experts-Society/Consensus-OSINT](https://github.com/OSINT-Experts-Society/Consensus-OSINT) ★194 - Username, email and phone OSINT with 9,700+ lookup checks and an MCP server.
+- [w0h1v/mcp-shodan](https://github.com/w0h1v/mcp-shodan) ★183 - Shodan MCP: devices, IP reconnaissance, DNS and CVE/CPE intelligence.
+- [w0h1v/mcp-virustotal](https://github.com/w0h1v/mcp-virustotal) ★154 - VirusTotal MCP for URLs, files, IPs and domains.
+- More: [soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers) ★535 (curated list).
+
+### Offensive Security & Vulnerability Scanning
+
+- [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) ★13.2k - MCP server letting agents run 150+ security tools for pentesting and bug bounty work.
+- [ZeroDayEvil/ai-security-tool](https://github.com/ZeroDayEvil/ai-security-tool) ★1.3k - AI security terminal and vulnerability scanner (CVE, SBOM) with MCP.
+- [Aletheore/Aletheore](https://github.com/Aletheore/Aletheore) ★661 - Evidence-grounded repository audit CLI with MCP server, secrets detection and dependency vulnerability checks.
+- [ARCANGEL0/Mitsu](https://github.com/ARCANGEL0/Mitsu) ★537 - Agentic pentest operator with 165+ MCP-connected tools.
+- [shinthink/blitzstrike](https://github.com/shinthink/blitzstrike) ★515 - MCP security-audit toolbelt: reconnaissance, analysis and validation.
+- [hahwul/gori](https://github.com/hahwul/gori) ★131 - Keyboard-driven HTTP intercepting proxy and pentesting toolkit for humans and agents.
+- [sinewaveai/agent-security-scanner-mcp](https://github.com/sinewaveai/agent-security-scanner-mcp) ★123 - Security scanner for coding agents: prompt-injection firewall, package hallucination detection, SAST.
+- [RamKansal/pentestMCP](https://github.com/RamKansal/pentestMCP) ★113 - MCP designed for penetration testers.
+
+### Reverse Engineering & Malware Analysis
+
+- [mrexodia/ida-pro-mcp](https://github.com/mrexodia/ida-pro-mcp) ★13.2k - Bridge IDA Pro with language models through MCP.
+- [bethington/ghidra-mcp](https://github.com/bethington/ghidra-mcp) ★6.0k - Ghidra MCP server with 200+ tools (GUI plugin and headless server).
+- [CYB3RMX/Qu1cksc0pe](https://github.com/CYB3RMX/Qu1cksc0pe) ★2.1k - All-in-one malware analysis tool with MCP server.
+- [miscusi-peek/cheatengine-mcp-bridge](https://github.com/miscusi-peek/cheatengine-mcp-bridge) ★1.7k - Connect agents to Cheat Engine for memory analysis and reverse engineering.
+- [qybaihe/bla](https://github.com/qybaihe/bla) ★1.6k - Adversarial defense shield protecting binaries and bundles against AI reverse-engineering agents.
+- [LING71671/open-reverselab](https://github.com/LING71671/open-reverselab) ★1.3k - AI reverse-engineering platform and MCP server for Ghidra, Frida, x64dbg and Rizin.
+- [alexgaoth/awesome-reverse-engineered](https://github.com/alexgaoth/awesome-reverse-engineered) ★963 - 17,000+ open-source tools built by reverse engineering, with search site and MCP server.
+- [cyberkaida/reverse-engineering-assistant](https://github.com/cyberkaida/reverse-engineering-assistant) ★886 - MCP server for reverse engineering in Ghidra.
+- [sjkim1127/Reversecore_MCP](https://github.com/sjkim1127/Reversecore_MCP) ★215 - Security-first MCP for reverse engineering, malware analysis and forensics (Radare2, YARA, LIEF).
+
+### MCP & Agent Security
+
+Gateways, guardrails, secrets, identity and audit trails for agents and MCP servers.
+
+- [archestra-ai/archestra](https://github.com/archestra-ai/archestra) ★4.4k - Enterprise AI platform with guardrails, MCP registry and gateway.
+- [mnemox-ai/tradememory-protocol](https://github.com/mnemox-ai/tradememory-protocol) ★1.4k - Decision audit trail for AI trading agents with a tamper-evident hash chain.
+- [VibeTensor/attestix](https://github.com/VibeTensor/attestix) ★841 - Agent identity, signed credentials, delegated authority and governance evidence.
+- [HelpCode-ai/anythingmcp](https://github.com/HelpCode-ai/anythingmcp) ★765 - MCP gateway turning REST, GraphQL, SOAP or SQL APIs into tools, with RBAC, SSO and audit logs.
+- [notinferred/keypaste](https://github.com/notinferred/keypaste) ★663 - KeePass-compatible password and secrets manager for people working with AI agents.
+- [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) ★639 - Local-first agent runtime and MCP bridge with sandboxed sessions, credentials and audit/replay.
+- [awslabs/iam-policy-autopilot](https://github.com/awslabs/iam-policy-autopilot) ★502 - Generate baseline AWS IAM policies from code, as CLI and MCP server.
+- [btsouth/toolport](https://github.com/btsouth/toolport) ★232 - Local-first MCP gateway with OS-keychain secrets, tool integrity checks and quarantine.
+- [MCP-Manager/MCP-Security-Checklists](https://github.com/MCP-Manager/MCP-Security-Checklists) ★199 - Security checklists for MCP servers, clients and hosts.
+- [Bevel-Software/Hexis](https://github.com/Bevel-Software/Hexis) ★122 - Centrally manage agent skills, tools, permissions and identity across an org.
 
 ## Database, Search & RAG
 
