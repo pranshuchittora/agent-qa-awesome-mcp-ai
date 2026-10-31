@@ -24,6 +24,11 @@ Note: "pushed" means the most recent push to any branch, which is a close proxy 
   - [Audio & Sound](#audio--sound)
   - [All-in-one Creative Studios](#all-in-one-creative-studios)
   - [ArtCraft Ecosystem (exception: below ★100)](#artcraft-ecosystem-exception-below-100)
+- [3D, CAD, Game Engines & Simulation](#3d-cad-game-engines--simulation)
+  - [3D & Blender](#3d--blender)
+  - [CAD & 3D Printing](#cad--3d-printing)
+  - [Game Engines](#game-engines)
+  - [Simulation & Engineering](#simulation--engineering)
 - [Database, Search & RAG](#database-search--rag)
 - [Memory & Context](#memory--context)
 - [Agent Platforms, Gateways & Clients](#agent-platforms-gateways--clients)
@@ -146,6 +151,47 @@ MCP servers, gateways and skills:
 - [xouel/artcraft-ai-bridge](https://github.com/xouel/artcraft-ai-bridge) ★0 - C#/WPF MCP bridge for FigCraft, PhotoCraft and GridCraft on Windows.
 - [kleinhansda/artcraft-mcp-ha](https://github.com/kleinhansda/artcraft-mcp-ha) ★0 - Home Assistant add-on exposing VectorCraft, PhotoCraft and PdfCraft as remote MCP servers.
 
+## 3D, CAD, Game Engines & Simulation
+
+MCP servers that let agents drive 3D tools, CAD, 3D printers, game engines and engineering simulation.
+
+### 3D & Blender
+
+- [ahujasid/mcp-for-blender](https://github.com/ahujasid/mcp-for-blender) ★32.9k - Community plugin to control Blender 3D with any LLM (Blender MCP).
+- [pascalorg/editor](https://github.com/pascalorg/editor) ★25.2k - Open-source 3D architectural editor with a local CLI and MCP tools.
+- [scenario-labs/skills](https://github.com/scenario-labs/skills) ★1.3k - Skills for images, video, audio and 3D via the Scenario MCP, plus teams driving Blender, Maya, ZBrush, Unreal and Unity.
+- [scenario-labs/blender-plugin](https://github.com/scenario-labs/blender-plugin) ★918 - Blender extension with AI images, video, 3D and PBR materials, plus a local MCP server.
+- [EL4CTEO/blender-skills](https://github.com/EL4CTEO/blender-skills) ★615 - Professional Blender workflows (modeling, UVs, PBR, rigging, export) as agent skills.
+- [reality-opened/openreality](https://github.com/reality-opened/openreality) ★552 - Phone video to AI-queryable 3D scenes, with MCP tools.
+- [squall01337/mixamo-llm-mocap](https://github.com/squall01337/mixamo-llm-mocap) ★420 - Turn any video into a Mixamo-rig animation, applied in Blender via MCP.
+- [instruktlabs/kiln](https://github.com/instruktlabs/kiln) ★307 - Procedural 3D asset builder with local MCP server and GLB export.
+- [nirholas/three.ws](https://github.com/nirholas/three.ws) ★262 - Platform for 3D AI agents and rigged GLB avatars with a remote MCP server.
+- [HoldMyBeer-gg/blenderwright](https://github.com/HoldMyBeer-gg/blenderwright) ★183 - Blender MCP server with hundreds of tools for modeling, materials and rendering.
+
+### CAD & 3D Printing
+
+- [spkane/freecad-addon-robust-mcp-server](https://github.com/spkane/freecad-addon-robust-mcp-server) ★263 - FreeCAD robust MCP server and bridge workbench.
+- [DMontgomery40/mcp-3D-printer-server](https://github.com/DMontgomery40/mcp-3D-printer-server) ★257 - MCP for 3D printer APIs (OctoPrint, Klipper, Bambu and more) and STL operations.
+- [DMontgomery40/bambu-printer-mcp](https://github.com/DMontgomery40/bambu-printer-mcp) ★256 - MCP for Bambu Lab printers: STL tools, slicing and printer control.
+- [codeofaxel/Kiln](https://github.com/codeofaxel/Kiln) ★231 - MCP server for 3D printing with git-style design version control.
+- [U-C4N/Autocad-MCP](https://github.com/U-C4N/Autocad-MCP) ★206 - AutoCAD MCP server with 240+ tools to draw, edit and read DWG/DXF files.
+
+### Game Engines
+
+- [IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP) ★4.6k - AI skills, MCP tools and CLI for the Unity Engine.
+- [ChiR24/Unreal_mcp](https://github.com/ChiR24/Unreal_mcp) ★998 - MCP server controlling Unreal Engine via a C++ Automation Bridge plugin.
+- [kevinpbuckley/VibeUE](https://github.com/kevinpbuckley/VibeUE) ★800 - Unreal Engine vibe-coding tool with MCP server.
+- [AnkleBreaker-Studio/unity-mcp-server](https://github.com/AnkleBreaker-Studio/unity-mcp-server) ★531 - Unity MCP server with 268 tools for Editor and Unity Hub.
+- [tugcantopaloglu/godot-mcp](https://github.com/tugcantopaloglu/godot-mcp) ★506 - Godot 4.x MCP server with 157 tools.
+- [db-lyon/ue-mcp](https://github.com/db-lyon/ue-mcp) ★462 - Unreal Engine development toolkit exposed as MCP tools.
+- [IvanMurzak/Godot-MCP](https://github.com/IvanMurzak/Godot-MCP) ★317 - MCP integration for the Godot Editor in C#.
+- [FunplayAI/funplay-unity-mcp](https://github.com/FunplayAI/funplay-unity-mcp) ★276 - Unity Editor MCP server with code execution and play-mode automation.
+
+### Simulation & Engineering
+
+- [yusong652/itasca-mcp](https://github.com/yusong652/itasca-mcp) ★225 - MCP server for ITASCA engines (PFC, FLAC, 3DEC): geotechnical and geomechanics simulation.
+- [gokeshenzhen/TraceWeave](https://github.com/gokeshenzhen/TraceWeave) ★125 - MCP server for RTL simulation debugging (VCS/Xcelium logs, waveforms, UVM).
+
 ## Database, Search & RAG
 
 - [xerj-org/xerj](https://github.com/xerj-org/xerj) ★17.8k - Rust search engine and MCP server (BM25, vector, hybrid).
@@ -198,7 +244,6 @@ MCP servers, gateways and skills:
 
 - [koala73/worldmonitor](https://github.com/koala73/worldmonitor) ★89.8k - Real-time global intelligence dashboard.
 - [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) ★63.3k - AI-driven trend and opinion monitor.
-- [pascalorg/editor](https://github.com/pascalorg/editor) ★25.2k - 3D architectural editor with MCP tools.
 - [xpzouying/xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) ★16.7k - MCP for xiaohongshu.com.
 - [liketrek/TREK](https://github.com/liketrek/TREK) ★15.3k - Travel planner with MCP server.
 - [budtmo/docker-android](https://github.com/budtmo/docker-android) ★16.1k - Android in Docker with MCP server.
