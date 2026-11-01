@@ -526,6 +526,8 @@ For database clients and DBA tooling see [No-code Databases & Database Managemen
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) ![GitHub stars](https://img.shields.io/github/stars/herdrdev/herdr?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/herdrdev/herdr?style=flat) - 多数のコーディングエージェントを並べて動かすターミナルマルチプレクサ/ワークスペースランタイム(自前の MCP サーバーはなく、エージェントの MCP 確認プロンプトを検知)。
 - [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) ![GitHub stars](https://img.shields.io/github/stars/manaflow-ai/cmux?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/manaflow-ai/cmux?style=flat) - AI コーディングエージェント向けに縦タブと通知を備えた Ghostty ベースの macOS ターミナル。MCP 連携あり。
 - [stablyai/orca](https://github.com/stablyai/orca) ![GitHub stars](https://img.shields.io/github/stars/stablyai/orca?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/stablyai/orca?style=flat) - Git worktree をまたいでコーディングエージェント群を動かすワークスペース。MCP サーバー設定に対応。
+- [generalaction/emdash](https://github.com/generalaction/emdash) ![GitHub stars](https://img.shields.io/github/stars/generalaction/emdash?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/generalaction/emdash?style=flat) - 複数のコーディングエージェントを並列実行するオープンソースのエージェント開発環境。MCP 連携あり。
+- [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) ![GitHub stars](https://img.shields.io/github/stars/nimbalyst/nimbalyst?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/nimbalyst/nimbalyst?style=flat) - Claude Code・Codex・OpenCode を並列実行するオープンソースのビジュアルワークスペース。MCP 対応。
 
 ## クラウド・DevOps
 
