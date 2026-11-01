@@ -528,6 +528,9 @@ For database clients and DBA tooling see [No-code Databases & Database Managemen
 - [stablyai/orca](https://github.com/stablyai/orca) ![GitHub stars](https://img.shields.io/github/stars/stablyai/orca?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/stablyai/orca?style=flat) - Git worktree をまたいでコーディングエージェント群を動かすワークスペース。MCP サーバー設定に対応。
 - [generalaction/emdash](https://github.com/generalaction/emdash) ![GitHub stars](https://img.shields.io/github/stars/generalaction/emdash?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/generalaction/emdash?style=flat) - 複数のコーディングエージェントを並列実行するオープンソースのエージェント開発環境。MCP 連携あり。
 - [nimbalyst/nimbalyst](https://github.com/nimbalyst/nimbalyst) ![GitHub stars](https://img.shields.io/github/stars/nimbalyst/nimbalyst?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/nimbalyst/nimbalyst?style=flat) - Claude Code・Codex・OpenCode を並列実行するオープンソースのビジュアルワークスペース。MCP 対応。
+- [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) ![GitHub stars](https://img.shields.io/github/stars/ParadevAI/Paradev?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/ParadevAI/Paradev?style=flat) - 複数のコーディングエージェントを並列にオーケストレーションするエージェント IDE（旧 Superset）。ワークスペース管理用の MCP サーバーあり。
+- [getpaseo/paseo](https://github.com/getpaseo/paseo) ![GitHub stars](https://img.shields.io/github/stars/getpaseo/paseo?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/getpaseo/paseo?style=flat) - 複数のコーディングエージェントをデスクトップとモバイルからオーケストレーションするツール。MCP サーバーを内蔵。
+- [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) ![GitHub stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/BloopAI/vibe-kanban?style=flat) - コーディングエージェントを分離された Git worktree で動かすカンバンボード。MCP サーバーあり。プロジェクトは終了（sunsetting）を発表済み。
 
 ## クラウド・DevOps
 
