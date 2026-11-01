@@ -523,6 +523,9 @@ For database clients and DBA tooling see [No-code Databases & Database Managemen
 - [osaurus-ai/osaurus](https://github.com/osaurus-ai/osaurus) ![GitHub stars](https://img.shields.io/github/stars/osaurus-ai/osaurus?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/osaurus-ai/osaurus?style=flat) - AI エージェント向けのネイティブ macOS ハーネス。
 - [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat) ![GitHub stars](https://img.shields.io/github/stars/ThinkInAIXYZ/deepchat?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/ThinkInAIXYZ/deepchat?style=flat) - MCP 対応の AI アシスタントクライアント。
 - [lemma-work/lemma-platform](https://github.com/lemma-work/lemma-platform) ![GitHub stars](https://img.shields.io/github/stars/lemma-work/lemma-platform?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/lemma-work/lemma-platform?style=flat) - チーム向けのマルチプレイヤーエージェントハーネス。
+- [herdrdev/herdr](https://github.com/herdrdev/herdr) ![GitHub stars](https://img.shields.io/github/stars/herdrdev/herdr?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/herdrdev/herdr?style=flat) - 多数のコーディングエージェントを並べて動かすターミナルマルチプレクサ/ワークスペースランタイム(自前の MCP サーバーはなく、エージェントの MCP 確認プロンプトを検知)。
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) ![GitHub stars](https://img.shields.io/github/stars/manaflow-ai/cmux?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/manaflow-ai/cmux?style=flat) - AI コーディングエージェント向けに縦タブと通知を備えた Ghostty ベースの macOS ターミナル。MCP 連携あり。
+- [stablyai/orca](https://github.com/stablyai/orca) ![GitHub stars](https://img.shields.io/github/stars/stablyai/orca?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/stablyai/orca?style=flat) - Git worktree をまたいでコーディングエージェント群を動かすワークスペース。MCP サーバー設定に対応。
 
 ## クラウド・DevOps
 
