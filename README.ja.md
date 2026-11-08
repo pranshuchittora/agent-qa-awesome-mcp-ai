@@ -114,6 +114,7 @@ AI エージェント向けの Model Context Protocol (MCP) リポジトリの�
 - [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) ![GitHub stars](https://img.shields.io/github/stars/vitali87/code-graph-rag?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/vitali87/code-graph-rag?style=flat) - モノレポ向けのグラフ RAG。
 - [duty1g/x64dbg-mcp-server](https://github.com/duty1g/x64dbg-mcp-server) ![GitHub stars](https://img.shields.io/github/stars/duty1g/x64dbg-mcp-server?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/duty1g/x64dbg-mcp-server?style=flat) - x64dbg デバッガ用の MCP プラグイン。
 - [aoci-spec/aoci-code](https://github.com/aoci-spec/aoci-code) ![GitHub stars](https://img.shields.io/github/stars/aoci-spec/aoci-code?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/aoci-spec/aoci-code?style=flat) - エージェント向けの Git 管理されたコードベース/スキーママップ。
+- [jkudish/jev-mcp](https://github.com/jkudish/jev-mcp) ![GitHub stars](https://img.shields.io/github/stars/jkudish/jev-mcp?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/jkudish/jev-mcp?style=flat) - TypeSafe の Jev モデルを型付き判定ツール（検証、分類、再ランク、抽出、レビューなど）として公開する MCP サーバー。
 
 ## ブラウザ・Web・スクレイピング
 
@@ -532,6 +533,7 @@ For database clients and DBA tooling see [No-code Databases & Database Managemen
 - [ParadevAI/Paradev](https://github.com/ParadevAI/Paradev) ![GitHub stars](https://img.shields.io/github/stars/ParadevAI/Paradev?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/ParadevAI/Paradev?style=flat) - 複数のコーディングエージェントを並列にオーケストレーションするエージェント IDE（旧 Superset）。ワークスペース管理用の MCP サーバーあり。
 - [getpaseo/paseo](https://github.com/getpaseo/paseo) ![GitHub stars](https://img.shields.io/github/stars/getpaseo/paseo?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/getpaseo/paseo?style=flat) - 複数のコーディングエージェントをデスクトップとモバイルからオーケストレーションするツール。MCP サーバーを内蔵。
 - [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban) ![GitHub stars](https://img.shields.io/github/stars/BloopAI/vibe-kanban?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/BloopAI/vibe-kanban?style=flat) - コーディングエージェントを分離された Git worktree で動かすカンバンボード。MCP サーバーあり。プロジェクトは終了（sunsetting）を発表済み。
+- [BillionsBobby/JevRouter](https://github.com/BillionsBobby/JevRouter) ![GitHub stars](https://img.shields.io/github/stars/BillionsBobby/JevRouter?style=flat&label=%E2%AD%90) ![Last commit](https://img.shields.io/github/last-commit/BillionsBobby/JevRouter?style=flat) - モデル、ツール、サブエージェントを Jev で振り分けるルーター。MCP アダプター（`serve-mcp`）あり。
 
 ## クラウド・DevOps
 
